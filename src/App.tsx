@@ -1,11 +1,11 @@
 import { ChakraProvider, defaultSystem } from '@chakra-ui/react';
 
+import { SearchCommunities } from './pages/SearchCommunities';
+
 function App() {
   return (
     <ChakraProvider value={defaultSystem}>
-      <div>
-        <h1>Playback Filtering</h1>
-      </div>
+      <SearchCommunities />
     </ChakraProvider>
   );
 }

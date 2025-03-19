@@ -47,6 +47,7 @@ export function SearchCommunitiesFilter({
                     onValueChange={(e) => setSelectedSport(e.value)}
                   >
                     <VStack gap={2} alignItems="flex-start">
+                      {/* This can easily be refactored to use a map or For */}
                       <RadioGroup.Item value="baseball">
                         <RadioGroup.ItemHiddenInput />
                         <RadioGroup.ItemIndicator />
@@ -72,6 +73,7 @@ export function SearchCommunitiesFilter({
                 </Field.Root>
 
                 <Fieldset.Root>
+                  {/* This can easily be refactored to use a map or For */}
                   <Fieldset.Legend fontSize="md" mb={2}>
                     Sizes
                   </Fieldset.Legend>

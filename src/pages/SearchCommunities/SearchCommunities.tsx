@@ -31,7 +31,7 @@ export function SearchCommunities() {
         <PageHeader.Title>Search Communities</PageHeader.Title>
         <PageHeader.Actions>
           <SearchCommunitiesInput onSearch={handleSearch} />
-          <SearchCommunitiesFilter />
+          <SearchCommunitiesFilter onApply={handleSearch} />
         </PageHeader.Actions>
       </PageHeader.Root>
 
